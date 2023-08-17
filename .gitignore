@@ -1,0 +1,9 @@
+node_modules
+.DS_Store
+.env
+.vscode
+err.out
+std.out
+validation_results.txt
+dist/
+tmp/

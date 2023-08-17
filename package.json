@@ -1,0 +1,89 @@
+{
+  "name": "@combolab/projectlist",
+  "description": "[Combo] project list",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "homepage": "https://github.com/ComboLabs/ComboProjectList#readme",
+  "license": "MIT",
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ComboLabs/ComboProjectList.git"
+  },
+  "tsup": {
+    "entry": [
+      "index.ts",
+      "combo.projectlist.json"
+    ],
+    "outDir": "dist",
+    "format": [
+      "esm",
+      "cjs"
+    ],
+    "splitting": false,
+    "sourcemap": true,
+    "clean": true
+  },
+  "scripts": {
+    "validate": "tsx ./bin/cli.ts validate",
+    "generate": "tsx ./bin/cli.ts generate",
+    "generate:ci": "pnpm generate --datadir ./data --outfile combo.projectlist.json",
+    "build": "tsup",
+    "build:ci": "pnpm generate:ci && pnpm tsup --dts",
+    "release": "pnpm build:ci && npm publish",
+    "test": "jest --detectOpenHandles",
+    "lint:check": "eslint . --max-warnings=0",
+    "lint:fix": "eslint --fix .",
+    "lint": "pnpm lint:fix && pnpm lint:check",
+    "start-bot": "tsx ./src/bot.ts",
+    "typecheck": "tsc -p ./tsconfig.json --noEmit"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@actions/core": "^1.4.0",
+    "@babel/eslint-parser": "^7.18.2",
+    "@eth-optimism/common-ts": "^0.6.5",
+    "@eth-optimism/contracts": "^0.5.40",
+    "@eth-optimism/core-utils": "^0.9.3",
+    "@types/glob": "^8.0.0",
+    "@types/jest": "^29.0.3",
+    "@types/node": "^12.0.0",
+    "@types/uuid": "^8.3.4",
+    "@typescript-eslint/eslint-plugin": "^5.26.0",
+    "@typescript-eslint/parser": "^4.26.0",
+    "@uniswap/token-lists": "^1.0.0-beta.30",
+    "ajv": "^8.11.0",
+    "ajv-formats": "^2.1.1",
+    "commander": "^9.4.0",
+    "eslint": "^8.16.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsdoc": "^35.1.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prefer-arrow": "^1.2.3",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-unicorn": "^42.0.0",
+    "ethers": "^5.4.1",
+    "extract-zip": "^2.0.1",
+    "glob": "^8.0.3",
+    "jest": "^28.1.3",
+    "jsonschema": "^1.4.1",
+    "mocha": "^8.4.0",
+    "node-fetch": "2.6.7",
+    "octokit": "^2.0.7",
+    "prettier": "^2.3.1",
+    "ts-jest": "^29.0.1",
+    "ts-mocha": "^10.0.0",
+    "tsup": "^6.7.0",
+    "tsx": "^3.12.6",
+    "typescript": "^4.9.5",
+    "uuid": "^9.0.0"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Combo Chain Project List",
+  "logoURI": "https://github.com/ComboLabs/ComboProjectList/combo.png",
+  "keywords": [
+    "scaling",
+    "layer2",
+    "infrastructure"
+  ],
+  "timestamp": "2023-08-17T07:21:01.161Z",
+  "projects": [
+    {
+      "contract_address": "0x1234123412341234123412341234123412341234",
+      "project_name": "Project Name",
+      "project_describe": "a project"
+    }
+  ],
+  "version": {
+    "major": 0,
+    "minor": 1,
+    "patch": 0
+  }
+}

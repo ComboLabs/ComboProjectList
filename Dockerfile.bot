@@ -1,0 +1,14 @@
+FROM node:16-alpine3.14
+
+WORKDIR /app
+
+COPY package*.json /app
+COPY pnpm-lock.yaml /app
+
+RUN pnpm install
+
+COPY . /app
+
+CMD [ "pnpm", "start-bot" ]
+
+EXPOSE 7300
