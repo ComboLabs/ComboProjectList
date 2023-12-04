@@ -1,0 +1,9 @@
+{
+  "project_name": "Haven Market",
+  "project_describe": "a project",
+  "contract": {
+    "HavenMarket": {
+      "address": "0xc18A63f8fc59b406E6A0da17bEfAf6Ba980b4951"
+    }
+  }
+}
