@@ -1,0 +1,9 @@
+{
+  "project_name": "SecondLive",
+  "project_describe": "BEAN Staking for SecondLive",
+  "contract": {
+    "combo": {
+      "address": "0xFff90259E849A496E437dE84f073c9E98933874f"
+    }
+  }
+}

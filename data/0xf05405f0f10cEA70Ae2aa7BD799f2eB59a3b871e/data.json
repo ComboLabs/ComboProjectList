@@ -1,0 +1,9 @@
+{
+  "project_name": "SecondLive",
+  "project_describe": "Medal of SecondLive",
+  "contract": {
+    "combo": {
+      "address": "0xf05405f0f10cEA70Ae2aa7BD799f2eB59a3b871e"
+    }
+  }
+}

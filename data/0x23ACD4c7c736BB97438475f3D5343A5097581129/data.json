@@ -1,0 +1,9 @@
+{
+  "project_name": "SecondLive",
+  "project_describe": "Task of SecondLive",
+  "contract": {
+    "combo": {
+      "address": "0x23ACD4c7c736BB97438475f3D5343A5097581129"
+    }
+  }
+}
