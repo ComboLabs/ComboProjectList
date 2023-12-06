@@ -22,7 +22,7 @@ program
     'Comma-separated list of projects to validate'
   )
   .action(async (options) => {
-    console.log(options)
+    console.log("options:", options)
     const results = await validate(options.datadir, options.projects.split(','))
 
     const validationResultsFilePath = 'validation_results.txt'
