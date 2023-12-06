@@ -23,10 +23,12 @@ export const generate = (datadir: string) => {
       return a.toLowerCase().localeCompare(b.toLowerCase())
     })
     .map((folder) => {
+      console.log("folder:", folder)
       const data: ProjectData = JSON.parse(
         fs.readFileSync(path.join(datadir, folder, 'data.json'), 'utf8')
       )
       console.log("data:", data)
+      console.log(Object.entries(data.contract))
       return Object.entries(data.contract).map(([chain, project]) => {
         console.log("project:", project)
         const out = {

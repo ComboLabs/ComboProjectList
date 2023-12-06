@@ -24,31 +24,3 @@ Object {
   },
 }
 `;
-
-exports[`'generate' script parse data dir and compile correct token list 1`] = `
-Object {
-  "keywords": Array [
-    "scaling",
-    "layer2",
-    "infrastructure",
-  ],
-  "logoURI": "https://github.com/ComboLabs/ComboTokenList/combo.png",
-  "name": "Combo Chain Token List",
-  "timestamp": "2022-08-17T17:00:00.000Z",
-  "tokens": Array [
-    Object {
-      "address": "0x4200000000000000000000000000000000000042",
-      "chainId": 91715,
-      "decimals": 18,
-      "logoURI": "https://github.com/ComboLabs/ComboTokenList/data/COMBO/logo.png",
-      "name": "Combo",
-      "symbol": "COMBO",
-    },
-  ],
-  "version": Object {
-    "major": 0,
-    "minor": 1,
-    "patch": Any<Number>,
-  },
-}
-`;
