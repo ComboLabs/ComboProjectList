@@ -1,0 +1,9 @@
+{
+    "project_name": "SecondLive",
+    "project_describe": "NFT Marketplace for SecondLive",
+    "contract": {
+      "combo": {
+        "address": "0x04D155b0Ce5ECa2EdAdFf3F49cD9f5f0f37432e8"
+      }
+    }
+  }
