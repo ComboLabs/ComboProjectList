@@ -6,8 +6,13 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-12-06T10:42:44.053Z",
+  "timestamp": "2023-12-06T12:59:11.849Z",
   "projects": [
+    {
+      "contract_address": "0x04D155b0Ce5ECa2EdAdFf3F49cD9f5f0f37432e8",
+      "project_name": "SecondLive",
+      "project_describe": "NFT Marketplace for SecondLive"
+    },
     {
       "contract_address": "0x1234123412341234123412341234123412341234",
       "project_name": "Project Name",
