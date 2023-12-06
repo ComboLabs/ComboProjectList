@@ -1,0 +1,8 @@
+{
+  "project_name": "Project Name",
+  "project_describe": "a project",
+  "contract": {
+    "combo": {
+      "address": "0x1234123412341234123412341234123412341234"
+    }
+  }
