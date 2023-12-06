@@ -1,9 +1,0 @@
-{
-  "project_name": "Hunter Swap",
-  "project_describe": "HunterSwap uses AMM to facilitate trust less crypto trades without intermediaries or order books, avoiding centralized exchange custody.",
-  "contract": {
-    "combo": {
-      "address": "0xADaE51D4427BEd402F380854f08dAC295E3A8BD1"
-    }
-  }
-}
