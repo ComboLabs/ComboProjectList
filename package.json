@@ -27,7 +27,7 @@
     "clean": true
   },
   "scripts": {
-    "validate": "tsx ./bin/cli.ts validate --datadir ./data --projects []",
+    "validate": "tsx ./bin/cli.ts validate",
     "generate": "tsx ./bin/cli.ts generate",
     "generate:ci": "pnpm generate --datadir ./data --outfile combo.projectlist.json",
     "build": "tsup",

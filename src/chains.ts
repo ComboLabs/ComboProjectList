@@ -10,10 +10,10 @@ export const NETWORK_DATA: Record<Chain, Network> = {
     layer: 1,
   },
   combo: {
-    id: 91715,
+    id: 9980,
     name: 'Combo',
     provider: new ethers.providers.StaticJsonRpcProvider(
-      'https://test-rpc.combonetwork.io'
+      'https://rpc.combonetwork.io'
     ),
     layer: 2,
   },
