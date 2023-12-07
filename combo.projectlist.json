@@ -6,7 +6,7 @@
     "layer2",
     "infrastructure"
   ],
-  "timestamp": "2023-12-07T06:41:45.316Z",
+  "timestamp": "2023-12-07T07:41:13.762Z",
   "projects": [
     {
       "contract_address": "0x04D155b0Ce5ECa2EdAdFf3F49cD9f5f0f37432e8",
@@ -17,6 +17,51 @@
       "contract_address": "0x1234123412341234123412341234123412341234",
       "project_name": "Project Name",
       "project_describe": "a project"
+    },
+    {
+      "contract_address": "0x23ACD4c7c736BB97438475f3D5343A5097581129",
+      "project_name": "SecondLive",
+      "project_describe": "Task of SecondLive"
+    },
+    {
+      "contract_address": "0x33bE2fb2F6D0476105ec155D0A2319E8074B54E9",
+      "project_name": "SecondLive",
+      "project_describe": "Avatar of SecondLive"
+    },
+    {
+      "contract_address": "0x76da1128261328618066a94dd7604c63Ab20814C",
+      "project_name": "SecondLive",
+      "project_describe": "IMO of SecondLive"
+    },
+    {
+      "contract_address": "0x79728B72841AA4fC569566Fd3bCF8f4FECA9F288",
+      "project_name": "SecondLive",
+      "project_describe": "Registry of SecondLive's NFT Marketplace"
+    },
+    {
+      "contract_address": "0xba7b9936a965FAc23Bb7A8190364FA60622B3CFf",
+      "project_name": "SecondLive",
+      "project_describe": "BEAN of SecondLive"
+    },
+    {
+      "contract_address": "0xC3764ADfab5067915c0181878C00A1479B322C52",
+      "project_name": "SecondLive",
+      "project_describe": "Medal Space of SecondLive"
+    },
+    {
+      "contract_address": "0xCF8d609948d9Df91f8719018887A67b4E6360DC8",
+      "project_name": "SecondLive",
+      "project_describe": "Sign in for the SecondLive"
+    },
+    {
+      "contract_address": "0xf05405f0f10cEA70Ae2aa7BD799f2eB59a3b871e",
+      "project_name": "SecondLive",
+      "project_describe": "Medal of SecondLive"
+    },
+    {
+      "contract_address": "0xFff90259E849A496E437dE84f073c9E98933874f",
+      "project_name": "SecondLive",
+      "project_describe": "BEAN Staking for SecondLive"
     }
   ],
   "version": {
