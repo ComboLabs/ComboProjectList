@@ -10,7 +10,7 @@ jobs:
     name: generate
     if: |
       github.event.head_commit.committer.username != 'github-actions[bot]'
-        && github.repository == 'ComboLabs/ComboTokenList'
+        && github.repository == 'ComboLabs/ComboProjectList'
 
     runs-on: ubuntu-latest
 
