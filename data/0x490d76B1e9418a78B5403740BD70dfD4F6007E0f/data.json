@@ -1,0 +1,9 @@
+{
+    "project_name": "z2048",
+    "project_describe": "Immerse yourself in an evolutionary gaming journey with z2048, seamlessly integrating the quintessential mechanics of the classic 2048 puzzle with an autonomous fully on-chain methodology. Powered by Zypher Game’s UZKGE (Universal ZK Game Engine), this venture welcomes players into a domain that is not only provably fair and scalable but also addresses trust issues while embedding deeply entwined strategic elements. Experience casual, strategic gameplay, now fully transported on-chain, marking a pioneering step in web3 gaming.",
+    "contract": {
+        "combo": {
+            "address": "0x490d76B1e9418a78B5403740BD70dfD4F6007E0f"
+        }
+    }
+}
