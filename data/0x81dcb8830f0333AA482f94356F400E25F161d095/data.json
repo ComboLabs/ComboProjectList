@@ -1,0 +1,9 @@
+{
+    "project_name": "Defusion",
+    "project_describe": "AI NFT for Defusion",
+    "contract": {
+        "combo": {
+            "address": "0x81dcb8830f0333AA482f94356F400E25F161d095"
+        }
+    }
+}
