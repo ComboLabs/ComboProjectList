@@ -1,0 +1,9 @@
+{
+    "project_name": "Hunter Swap",
+    "project_describe": "Router for Hunter",
+    "contract": {
+        "combo": {
+            "address": "0xADaE51D4427BEd402F380854f08dAC295E3A8BD1"
+        }
+    }
+}

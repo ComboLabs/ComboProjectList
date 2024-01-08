@@ -1,0 +1,9 @@
+{
+    "project_name": "Hunter Swap",
+    "project_describe": "Factory for Hunter",
+    "contract": {
+        "combo": {
+            "address": "0x55eDb288D477392e69092f375f382142210d7Af4"
+        }
+    }
+}
