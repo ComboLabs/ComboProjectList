@@ -1,0 +1,9 @@
+{
+  "project_name": "Particle Network",
+  "project_describe": "Particle's Omnichain Paymaster",
+  "contract": {
+    "combo": {
+      "address": "0x23b944a93020A9C7C414b1aDeCDB2Fd4Cd4e8184"
+    }
+  }
+}
