@@ -1,0 +1,7 @@
+{
+  "project_name": "zkBridge",
+  "project_describe": "NFT Bridge Application",
+  "contract": {
+    "combo": "0xCE0e4e4D2Dc0033cE2dbc35855251F4F3D086D0A"
+  }
+}
