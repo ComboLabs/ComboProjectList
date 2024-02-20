@@ -1,0 +1,9 @@
+{
+  "project_name": "FlokiCyberPunk",
+  "project_describe": "Multiplayer multichain P2E game",
+  "contract": {
+    "combo": {
+      "address": "0x4D9c85c60f57890F47b34BA91A1B3D81487Cb990"
+    }
+  }
+}
